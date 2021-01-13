@@ -1,0 +1,23 @@
+<DOCTYPE html>
+<htmL>
+   <head>
+      <meta charset="utf-8"/>
+      <title>THPS2 Text Editor</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+      <script type="text/javascript" src="js/controller.js"></script>
+      <script type="text/javascript" src="js/font.js"></script>
+   </head>
+   <body>
+      <div style="display:none;">
+         <img id="sprite" src="assets/sprites.png">
+         <img id="sprite_font" src="assets/font.png">
+         <img id="oof" src="assets/oof.png">
+      </div>
+      <div id="container">
+         <canvas id="background" width="1200" height="1000" style="position: absolute; z-index: 0"></canvas>
+         <canvas id="keyboard" width="1200" height="1000" style="position: absolute; z-index: 1"></canvas>
+         <canvas id="active" width="1200" height="1000" style="position: absolute; z-index: 2"></canvas>
+      </div>
+      <script type="text/javascript" src="js/main.js"></script>
+   </body>
+</html>
